@@ -52,7 +52,7 @@ void process_image_callback(const sensor_msgs::Image img)
         }
     }
     else {
-        // drive_robot(0, 0);
+        drive_robot(0, 0);
     }
 }
 
